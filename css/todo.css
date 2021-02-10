@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* body {
+  font-family: "Open Sans",Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+* body .contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.overlay {
+  background: #c5d0a3;
+  background: linear-gradient(324deg, #c5d0a3 0%, rgba(210, 159, 48, 0.828571) 79%);
+}
+
+.overlay header {
+  width: 100%;
+  background: url("../img/bg.jpg"), -webkit-gradient(linear, left top, right top, from(rgba(131, 58, 180, 0.2)), color-stop(0%, rgba(29, 253, 234, 0.2)), color-stop(50%, rgba(252, 176, 69, 0.2)));
+  background: url("../img/bg.jpg"), linear-gradient(90deg, rgba(131, 58, 180, 0.2) 0%, rgba(29, 253, 234, 0.2) 0%, rgba(252, 176, 69, 0.2) 50%);
+  opacity: 0.7;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 center;
+}
+
+.overlay header .contenedor {
+  position: relative;
+  height: 700px;
+}
+
+.overlay header .contenedor .menu {
+  width: 100%;
+  text-align: right;
+}
+
+.overlay header .contenedor .menu a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  display: inline-block;
+  text-decoration: none;
+  margin: 40px 20px;
+  position: relative;
+}
+
+.overlay header .contenedor .menu a:hover {
+  text-decoration: underline;
+}
+
+.overlay header .contenedor .textos {
+  width: 100%;
+  color: #00327e;
+  position: absolute;
+  top: 50%;
+  margin-top: -52px;
+}
+
+.overlay header .contenedor .textos .nombre {
+  font-size: 50px;
+  font-weight: 600px;
+}
+
+.overlay header .contenedor .textos .nombre span {
+  font-weight: 300;
+}
+
+.overlay header .contenedor .textos h3 {
+  font-weight: 300px;
+  font-size: 25px;
+  font-style: italic;
+}
+
+section.main {
+  background: url("../img/texture.png");
+  background-repeat: repeat;
+}
+
+section.main .acerca-de .contenedor {
+  overflow: visible;
+  position: relative;
+}
+
+section.main .acerca-de .contenedor .foto {
+  width: 80%;
+  position: absolute;
+  left: 0;
+  top: -15px;
+  z-index: 0;
+  -webkit-box-shadow: 0px 0px 15px black;
+          box-shadow: 0px 0px 15px black;
+}
+
+section.main .acerca-de .contenedor .foto img {
+  vertical-align: top;
+  width: 100%;
+}
+
+section.main .acerca-de .contenedor article {
+  background: #fff;
+  padding: 40px;
+  width: 50%;
+  position: relative;
+  top: 150px;
+  z-index: 1;
+  -webkit-box-shadow: 0px 0px 15px black;
+          box-shadow: 0px 0px 15px black;
+  float: right;
+}
+
+section.main .acerca-de .contenedor article h3 {
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+section.main .acerca-de .contenedor article p {
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+
+section.menu {
+  padding-top: 570px;
+  margin-bottom: 50px;
+}
+
+section.menu .titulo {
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+section.menu .contenedor-menu {
+  border: 1px solid #000;
+  background: transparent;
+  padding: 10px;
+  overflow: hidden;
+}
+
+section.menu .contenedor-menu .contenedor-menu2 {
+  border: 1px solid #000;
+  background: transparent;
+  padding: 10px;
+  overflow: hidden;
+}
+
+section.menu .contenedor-menu .contenedor-menu2 article {
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+
+section.menu .contenedor-menu .contenedor-menu2 article .categoria {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+section.menu .contenedor-menu .contenedor-menu2 article .platillo {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 4px dotted #000;
+  overflow: hidden;
+}
+
+section.menu .contenedor-menu .contenedor-menu2 article .nombre {
+  font-size: 20px;
+  margin-bottom: 15px;
+  float: left;
+}
+
+section.menu .contenedor-menu .contenedor-menu2 article .precio {
+  font-size: 20px;
+  margin-bottom: 15px;
+  float: right;
+}
+
+section.menu .contenedor-menu .contenedor-menu2 article .descripcion {
+  font-size: 16px;
+  color: #676767;
+  clear: both;
+}
+
+section.galeria {
+  overflow: hidden;
+}
+
+section.galeria .foto {
+  width: 25%;
+  float: left;
+}
+
+section.galeria .foto img {
+  width: 100%;
+  vertical-align: top;
+  opacity: .7;
+}
+
+section.galeria .foto img:hover {
+  opacity: 1;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+section.ubicacion {
+  background: #fff;
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+section.ubicacion .titulo {
+  text-align: center;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+section.ubicacion .direccion {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+section.ubicacion .direccion .calle {
+  margin-bottom: 15px;
+}
+
+section.ubicacion .horarios {
+  float: right;
+  width: 50%;
+  text-align: right;
+  overflow: hidden;
+}
+
+section.ubicacion .horarios h4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section.ubicacion .horarios .entre-semana {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+section.ubicacion .horarios .fin-semana {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+section.mapa {
+  width: 100%;
+  overflow: hidden;
+}
+
+section.mapa iframe {
+  width: 100%;
+  max-height: 700px;
+}
+
+footer {
+  background: #000;
+}
+
+footer .copyright {
+  text-align: center;
+  color: #fff;
+  padding: 15px 0;
+}
+
+@media screen and (max-width: 800px) and (min-width: 0px) {
+  body .overlay header .contenedor {
+    position: static;
+    height: auto;
+  }
+  body .overlay header .contenedor .textos {
+    position: static;
+    margin: 100px 0;
+  }
+  body .overlay header .contenedor .textos .nombre {
+    font-size: 30px;
+  }
+  body .overlay header .contenedor .textos h3 {
+    font-size: 18px;
+  }
+  body .overlay header .contenedor nav.menu {
+    text-align: center;
+  }
+  body .overlay header .contenedor nav.menu a {
+    margin: 10px 20px;
+  }
+  body .main .acerca-de .contenedor .foto {
+    width: 100%;
+    position: relative;
+  }
+  body .main .acerca-de .contenedor article {
+    position: relative;
+    width: 100%;
+    -webkit-transform: translate(0px, 0);
+            transform: translate(0px, 0);
+    top: 500px;
+  }
+  body .main .galeria .foto {
+    width: 50%;
+  }
+  body .main .mapa {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 0px) {
+  .main .acerca-de article h3 {
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
+}
+/*# sourceMappingURL=todo.css.map */

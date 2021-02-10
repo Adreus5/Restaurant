@@ -1,0 +1,33 @@
+@media screen and (max-width: 800px) and (min-width: 0px) {
+    .overlay header .contenedor {
+      position: static;
+      height: auto;
+    }
+    .overlay header .textos {
+      position: static;
+      margin: 100px 0;
+    }
+    .overlay header .textos .nombre {
+      font-size: 30px;
+    }
+    .overlay header .textos h3 {
+      font-size: 18px;
+    }
+    .overlay header .menu {
+      text-align: center;
+    }
+    .overlay header .menu a {
+      margin: 10px 20px;
+    }
+    .main .acerca-de .contenedor .foto {
+      width: 100%;
+      position: relative;
+    }
+    .main .acerca-de .contenedor article {
+      position: relative;
+      width: 100%;
+      top: -50px;
+      -webkit-transform: translate(0px, 0);
+              transform: translate(0px, 0);
+    }
+  }

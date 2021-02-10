@@ -1,0 +1,62 @@
+@media screen and (max-width:800px) and(min-width: 0px) {
+ body{
+    .overlay{
+     header{
+            .contenedor{
+            position:static;
+            height: auto;
+             
+         .textos {
+             position: static;
+             margin: 100px 0;
+             .nombre{
+                font-size: 30px; 
+             }
+             h3{
+                font-size: 18px; 
+             }
+         }
+         nav.menu {
+            text-align: center;
+            a{
+                margin: 10px 20px;
+            }
+        }
+        }
+        }
+        
+    }
+.main {
+    .acerca-de{
+        .contenedor{
+        .foto{
+            width: 100%;
+            position: relative;
+        }
+        article{
+            position: relative;
+            width: 100%;
+            transform: translate(0px,0);
+            top: 500px;
+        }
+        }
+    }
+    .galeria {
+        .foto{
+            width: 50% ;
+        }
+    }
+    .mapa{
+        width: 80%;
+        margin: auto;
+    }
+}
+}
+}
+
+@media screen and (max-width:400px) and(min-width: 0px) {
+   .main .acerca-de article h3 {
+       font-size: 34px;
+       margin-bottom: 10px;
+   }
+}

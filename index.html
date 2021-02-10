@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/expermento.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/todo.css">
+
+    <title>Cafe</title>
+</head>
+<body>
+    <div class="overlay">
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="#" id="btn-acerca-de">Acerca de</a>
+                <a href="#" id="btn-menu">Menu</a>
+                <a href="#" id="btn-galeria">Galeria</a>
+                <a href="#" id="btn-ubicacion">Ubicación</a>
+            </nav>
+            <div class="textos">
+                <h1 class="nombre">Café <span>Aidan</span></h1>
+                <h3>Lorem tomaté algo en nuestra cafeteria.</h3>
+            </div>
+        </div>
+    </header>
+    </div>  
+
+    <section class="main">
+        <!-- este section es el que nos permite acceder al apartado acerca de combinado con jquery-->
+        <section class="acerca-de" id="acerca-de">
+            <div class="contenedor">
+                <div class="foto">
+                <img src="img/acerca-de.jpg" class="foto1" alt="Restaurante">
+                </div>
+                <article>
+                    <h3>Acerca de</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi nulla numquam necessitatibus cumque accusantium expedita minus, mollitia quam qui ullam praesentium obcaecati sed placeat repudiandae dignissimos earum, tempore laboriosam magnam!</p>
+                </article>
+            </div>
+        </section> 
+
+        <section class="menu">
+            <div class="contenedor">
+                <h3 class="titulo" id="platillos">Menu</h3>
+                <div class="contenedor-menu">
+                    <div class="contenedor-menu2">
+                        <article>
+                            <p class="categoria">De comer</p>
+                            <div class="platillo">
+                                <p class="nombre">Sed sagittis nisl dictum</p>
+                                <p class="precio">14€</p>
+                                <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, qui molestiae? Amet d?</p>
+                            </div>
+
+                            <div class="platillo">
+                                <p class="nombre">Patata sagittis nisl dictum</p>
+                                <p class="precio">17€</p>
+                                <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, qui molestiae? Amet d?</p>
+                            </div>
+
+                                <div class="platillo">
+                                    <p class="nombre">Carne</p>
+                                    <p class="precio">20€</p>
+                                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, qui molestiae? Amet d?</p>
+                                </div>
+
+                                <div class="platillo">
+                                    <p class="nombre">Pasta</p>
+                                    <p class="precio">13€</p>
+                                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, qui molestiae? Amet d?</p>
+                                </div> 
+                        </article>
+
+                        <article>
+                            <p class="categoria">De beber</p>
+                            <div class="platillo">
+                                <p class="nombre">Agua</p>
+                                <p class="precio">5€</p>
+                                <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, qui molestiae? Amet d?</p>
+                            </div>
+
+                            <div class="platillo">
+                                <p class="nombre">Cocacola</p>
+                                <p class="precio">8€</p>
+                                <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, qui molestiae? Amet d?</p>
+                            </div>
+                            
+
+                                <div class="platillo">
+                                    <p class="nombre">Fanta</p>
+                                    <p class="precio">4</p>
+                                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, qui molestiae? Amet d?</p>
+                                </div>
+
+                                <div class="platillo">
+                                    <p class="nombre">Nestea</p>
+                                    <p class="precio">2€</p>
+                                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, qui molestiae? Amet d?</p>
+                                </div> 
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="galeria" id="galeria">
+            <div class="foto">
+                <img src="img/1.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="img/2.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="img/3.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="img/4.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="img/5.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="img/6.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="img/7.jpg" alt="">
+            </div>
+            <div class="foto">
+                <img src="img/8.jpg" alt="">
+            </div>
+        </section>
+
+        <section class="ubicacion" id="ubicacion">
+            <div class="contenedor">
+                <h3 class="titulo">Ubicación</h3>
+                <div class="direccion">
+                    <p class="calle">143 Carrer sagrera <br> Barcelona, ES 08030</p>
+                    <p class="telefono"> 0030303099</p>
+                    <p class="correo"> correo [arroba] tucorreo.com</p>
+                </div>
+                <div class="horarios">
+                    <h4>Horarios</h4>
+                    <p class="entre-semana">Lunes a Viernes <br> 9:00 - 21:00</p>
+                    <p class="fin-semana">Sabados y Domingos <br> 9:00 - 21:00</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2987.3886049552702!2d2.1267340512169564!3d41.51752229577832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a495ebc233177f%3A0x61f3f35ddb3ef348!2sPassatge%20de%20la%20Sagrera%2C%2008210%20Barber%C3%A0%20del%20Vall%C3%A8s%2C%20Barcelona%2C%20Espa%C3%B1a!5e0!3m2!1ses!2sfr!4v1611844532695!5m2!1ses!2sfr" width="1600" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+
+    </section>
+
+    <footer>
+        <div class="contenedor">
+            <div class="copyright">
+                <p>Copyright AidanFernández @2021</p>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/js.js"></script>
+    <script src="/js/paralax.js"></script>
+</body>
+</html>

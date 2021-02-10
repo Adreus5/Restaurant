@@ -1,0 +1,60 @@
+
+.overlay {
+    background: rgb(197,208,163);
+    background: linear-gradient(324deg, rgba(197,208,163,1) 0%, rgba(210,159,48,0.8285714285714285) 79%);
+header {
+    width: 100%;
+    background: url('../img/bg.jpg'), linear-gradient(90deg, rgba(131,58,180,0.2) 0%, rgba(29,253,234,0.2) 0%, rgba(252,176,69,0.2) 50%);
+    opacity: 0.7;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 center;
+    
+    
+        .contenedor{
+            position: relative;
+            height: 700px;
+           
+            .menu{
+                width: 100%;
+                text-align: right;
+                
+                a{
+                    color:#fff;
+                    font-size: 20px;
+                    font-weight: 300;
+                    display: inline-block;
+                    text-decoration: none;
+                    margin: 40px 20px;
+                    position: relative;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            .textos{
+                width: 100%;
+                color: rgb(0, 50, 126);
+                position: absolute;
+                top: 50%;
+                margin-top: -52px;
+                    .nombre{
+                        font-size: 50px;
+                        font-weight: 600px;
+                        span {
+                            font-weight: 300;
+                        }
+                    
+                    }
+                    h3{
+                        font-weight: 300px;
+                        font-size: 25px;
+                        font-style: italic;
+                    }
+            }
+        }
+
+        
+}
+}
